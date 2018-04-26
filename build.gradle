@@ -1,0 +1,12 @@
+ext.githubProjectName = 'es-restlog'
+
+repositories {
+    mavenCentral()
+}
+
+apply plugin: 'idea'
+apply plugin:'java'
+
+dependencies {
+    compile 'org.elasticsearch:elasticsearch:2.3.0'
+}
